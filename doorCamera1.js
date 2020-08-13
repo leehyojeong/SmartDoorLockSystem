@@ -2,17 +2,17 @@ var awsIot = require('aws-iot-device-sdk');
 var AWS = require('aws-sdk');
 var fs = require('fs');
 var s3 = new AWS.S3({
-  accessKeyId : "AKIASZX6TMKSIMS7V5OR",
-  secretAccessKey : "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",
+  accessKeyId : "...",
+  secretAccessKey : "...",
   region : 'ap-northeast-2'
 });
 
 var doorCamera = awsIot.device({
-  keyPath: "./credentials/camera/fb76d5ec8b-private.pem.key",
-  certPath: "./credentials/camera/fb76d5ec8b-certificate.pem.crt",
+  keyPath: "./credentials/camera/...",
+  certPath: "./credentials/camera/...",
   caPath: "./credentials/camera/AmazonRootCA1.pem",
   clientId: "doorCamera1",
-  host: "a2z27yuzjpfxe8-ats.iot.ap-northeast-2.amazonaws.com"
+  host: "..."
 });
 
 var image_keys = ['DD.jpg','MM.jpg','TH.jpg','MS.jpg','BC.jpg'];
