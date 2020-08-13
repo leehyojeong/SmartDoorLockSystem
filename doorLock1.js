@@ -1,11 +1,11 @@
 var awsIot = require('aws-iot-device-sdk');
 
 var doorLock = awsIot.device({
-  keyPath: "./credentials/lock/0f7cf06bdd-private.pem.key",
-  certPath: "./credentials/lock/0f7cf06bdd-certificate.pem.crt",
+  keyPath: "./credentials/lock/...",
+  certPath: "./credentials/lock/...",
   caPath: "./credentials/lock/AmazonRootCA1.pem",
   clientId: "doorLock1",
-  host: "a2z27yuzjpfxe8-ats.iot.ap-northeast-2.amazonaws.com"
+  host: "..."
 });
 
 doorLock.on('connect', function () {
