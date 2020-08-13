@@ -1,7 +1,7 @@
 const AWS = require('aws-sdk');
 const s3 = new AWS.S3();
 const iot = new AWS.IotData({
-    endpoint:'a2z27yuzjpfxe8-ats.iot.ap-northeast-2.amazonaws.com'
+    endpoint:'...'
 });
 const bucket = 'face-bucket-hw';
 
