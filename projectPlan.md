@@ -39,3 +39,10 @@
   - Rekognition은 유사도(similarity)가 90% 이상인 경우에만 출력되도록 설정해두었다.
   - 인증된 사람 배열을 도는 중 일치하는 사람이 있는 경우 "faceRecog/notify/door1" 토픽에 ```{'image':'','command':'unlock'}```을 publish한다.
   - 배열을 다 돌아도 일치하는 사람이 없는 경우 "faceRecog/notify/door1" 토픽에 ```{'image':'','command':'reject'}```를 publish한다.
+
+### 실행 결과
+- doorCamera1.js
+![image](https://user-images.githubusercontent.com/39904216/90134605-62cdf680-ddac-11ea-89b0-f23e231f3f13.png)
+
+- doorLock1.js
+![image](https://user-images.githubusercontent.com/39904216/90134649-711c1280-ddac-11ea-9cc7-8326599ead83.png)
