@@ -24,7 +24,7 @@
 - doorLock1.js(IoT Applications)
   - "faceRecog/notify/door1" 토픽을 subscribe한다.
   - 도착한 메세지의 command가 "unlock"인 경우 door1을 열었다는 내용을 출력한다.
-  - 도착한 메세지의 commnad가 "reject"인 경우 인증디지 않은 사람이라는 내용을 출력한다.
+  - 도착한 메세지의 commnad가 "reject"인 경우 인증지 않은 사람이라는 내용을 출력한다.
 - IoT Rules (SQL SELECT Clause)
   - "faceRecog/request" 토픽을 subscribe한다.
   - 위의 토픽으로 메세지가 도착하면 "faceRecognitionLambdaServie" 람다 함수를 실행한다.
